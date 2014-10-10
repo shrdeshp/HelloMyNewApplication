@@ -239,6 +239,7 @@ public class DFTLoginActivity extends Activity implements LoaderCallbacks<Cursor
         ArrayAdapter<String> adapter =
                 new ArrayAdapter<String>(DFTLoginActivity.this,
                         android.R.layout.simple_dropdown_item_1line, emailAddressCollection);
+        System.out.println("Hello world!");
 
         mEmailView.setAdapter(adapter);
     }
